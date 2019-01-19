@@ -12,6 +12,5 @@ public class Runner {
         book.buy();
         eBook.buy();
         magazine.buy();
-        ((Book) book).name = "Aasdnas";
     }
 }
