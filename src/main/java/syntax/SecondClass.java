@@ -1,3 +1,5 @@
+package syntax;
+
 public class SecondClass {
 
     // psvm = generates main method
@@ -15,6 +17,9 @@ public class SecondClass {
         FirstClass.staticVar = "Static Var";
         System.out.println(FirstClass.staticVar);
 
+        FirstClass vasia = new FirstClass("Vasia");
+        FirstClass vasiaTrue = new FirstClass("Vasia", true);
 
+        FirstClass.staticMethod();
     }
 }
